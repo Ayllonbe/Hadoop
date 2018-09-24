@@ -17,6 +17,15 @@ public class WordCountHomeMade {
 		String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs(); //C'est une parser de la configuration hadoop et le args ajouté pour faire marcher le job
 		
 		Job job = Job.getInstance(conf); // Begin Job
+		
+		/*
+		 * .setOutputKeyClass(Object.class) and setOutputValueClass(IntWritable)
+		 * are very important to export these object in Mapper and Reducer class. 
+		 * 
+		 * Some errors are related if we don't use them.
+		 */
+		
+		
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
 		job.setMapperClass(WordCountMapper.class);
