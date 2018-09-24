@@ -34,7 +34,7 @@ TEST whether haddop is installed.
 
 To avoid to do that every time we open a terminal in linux. Add all export in the last lines of the file .bashrc in your main folder (/home/<user>/.bashrc)
 
-###Example
+### Example
   >$ hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.1.jar wordcount Readme.txt output
 
 The rest of lesson is in the Java src. 
