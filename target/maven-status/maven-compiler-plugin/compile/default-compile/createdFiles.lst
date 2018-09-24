@@ -1,0 +1,9 @@
+example_1/Job.class
+com/phd/bioinfo/WordCountHomeMade.class
+com/phd/bioinfo/WordCountReducer.class
+com/phd/bioinfo/App.class
+com/phd/bioinfo/WordCount$IntSumReducer.class
+Lesson_1.class
+com/phd/bioinfo/WordCount$TokenizerMapper.class
+com/phd/bioinfo/WordCountMapper.class
+com/phd/bioinfo/WordCount.class
